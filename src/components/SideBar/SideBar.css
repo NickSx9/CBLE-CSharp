@@ -1,0 +1,19 @@
+﻿.sideBar-body {
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 !important;
+  padding: 0 0 0 0 !important; 
+}
+.tile a {
+  color: white;
+  font-style: italic;
+}

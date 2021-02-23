@@ -1,0 +1,51 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+#root {
+  
+}
+.container {
+ 
+}
+
+.photo-item {
+  width: 50%;
+}
+
+.main-body {
+  background-color: #A9A9A9;
+  padding: 10px;
+  border-style: solid;
+  border-width: medium;
+}
+
+.navigationSideBar{
+  padding-left: 10px;
+
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+.title a {
+ 
+}
+.mainWeb-body{
+  background-color:#675e5e;
+}
+.block {
+  margin-top: 20px;
+}
