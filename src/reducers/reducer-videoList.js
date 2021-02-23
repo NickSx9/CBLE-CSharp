@@ -6,9 +6,9 @@ export default function() {
             SideBarTitle: "Installation",
             SideBarDescription: "This Tutorial will show the user how to install Microsoft Visual Studio On their Computer",
             BothThumbImage: "intro",
-            PageVideo: "Intro",
+            PageVideo: "intro",
             PageTitle: "Introduction and installation",
-            PageText: "Welcome to an introduction into Basic C-Sharp Programming. Once completed, you will have a basic knowledge of how this programming language works and have an understanding of the variables, classes and how to debug errors.  We will start this tutorial by showing you what programs you will need, and how to install them. Once completed, please click the 'Completed Lesson' button to keep tract of your progress."
+            PageText: "Welcome to an introduction into C-Sharp Basic Programming. Once you have completed this tutorial, you will have a basic knowledge of how this programming language works and have an understanding of the variables, classes and how to debug errors.  We will start this tutorial by showing you what programs you will need, and how to install them. Once completed, please click the 'Completed Lesson' button to keep tract of your progress."
         },
         {
              LinkNumber: 2,
