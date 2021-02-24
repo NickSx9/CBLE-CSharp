@@ -1,4 +1,5 @@
 import React from 'react';
+import RadioButton from '../RadioButtons/radiobutton'
 import './quiz.css';
 
 
@@ -35,17 +36,12 @@ export class Quiz extends React.Component {
                             {Object.keys(this.state.QuizData).map((i) =>
                                 <li>
                                     <p>{this.state.QuizData[i].question}</p>
-                                    {Object.keys(this.state.QuizData[i].answers).map((x) =>
-                                        <div key={i+x}>
-                                            <input type="radio" id={"id_"+i+"_"+x} value={"answer_"+i+"_"+x}/>
-                                                <label>{this.state.QuizData[i].answers[x]}</label>                                            
-                                        </div>
-                                    )}
+                                    <RadioButton options={this.state.QuizData[i].answers}/>
                                 </li>                            
                             )}
                         </tbody>
-
                     </ul>
+                    <button>Submit</button>
                 </div>
             </form>
         </div>
