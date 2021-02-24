@@ -1,4 +1,5 @@
 import React from 'react';
+import {Quiz} from '../Quiz/quiz';
 import './ProgressBar.css';
 
 
@@ -32,8 +33,7 @@ export class ProgressBar extends React.Component {
         <div>
           <h2 className="Progress-title">Tutorial Completed</h2>
              <Progress percentage={this.state.percentage} />
-             <p><br/>Congratulations! you have completed the Basic C# tutorial.</p>
-             <button class="progressButton">Click Here To Proceed to the Quiz</button>
+             <Quiz/>
         </div>
       );
     }

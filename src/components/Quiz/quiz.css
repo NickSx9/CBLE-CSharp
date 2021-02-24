@@ -1,0 +1,21 @@
+.formTile {
+    margin-top: 15px;
+    background-color: #696969;
+    padding: 0 5% 0 5%;
+    border-radius: 5px;
+}
+.formTile h1{
+    text-align: center;
+    text-decoration: underline;   
+    color: white;
+}
+.formTile p {
+    color: whitesmoke;
+}
+.formTile input{
+    padding-left: 5px;
+}
+.formTile label {
+    padding-left: 5px;
+    color: white;
+}

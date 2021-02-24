@@ -5,3 +5,11 @@ export function selectPage(cliplist){
         payload: cliplist
     }
 };
+
+export function startQuiz(stateChange){
+    console.log("quiz is loading now", stateChange);
+    return{
+        type: "START_QUIZ",
+        payload: stateChange
+    }
+};
