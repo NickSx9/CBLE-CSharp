@@ -3,6 +3,7 @@
     background-color: #696969;
     padding: 0 5% 0 5%;
     border-radius: 5px;
+    border-color: whitesmoke;
 }
 .formTile h1{
     text-align: center;
@@ -20,4 +21,11 @@
 .formTile label {
     padding-left: 5px;
     color: white;
+}
+.submitbutton {
+    background-color: rgb(179, 153, 153);
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5%;
+    float: right;
 }

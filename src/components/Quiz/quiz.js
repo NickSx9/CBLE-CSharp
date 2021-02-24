@@ -41,7 +41,7 @@ export class Quiz extends React.Component {
                             )}
                         </tbody>
                     </ul>
-                    <button>Submit</button>
+                    <button class="submitbutton">Submit</button>
                 </div>
             </form>
         </div>

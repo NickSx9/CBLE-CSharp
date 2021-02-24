@@ -23,7 +23,7 @@ global.quizDetails = [{
 },
 {
   questionNumber: 2,
-  question: "2. ",
+  question: "2. how long is too long?",
   answers: [
     { label: "", id: "", value: ""},
     { label: "", id: "", value: ""},
@@ -33,7 +33,7 @@ global.quizDetails = [{
 },
 {
   questionNumber: 3,
-  question: "3. ",
+  question: "3. when you eat beans, does it make you fart",
   answers: [
     { label: "", id: "", value: ""},
     { label: "", id: "", value: ""},
@@ -43,7 +43,7 @@ global.quizDetails = [{
 },
 {
   questionNumber: 4,
-  question: "4. ",
+  question: "4. what time is it?",
   answers: [
     { label: "", id: "", value: ""},
     { label: "", id: "", value: ""},
@@ -53,57 +53,7 @@ global.quizDetails = [{
 },
 {
   questionNumber: 5,
-  question: "5. ",
-  answers: [
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""}
-  ]
-},
-{
-  questionNumber: 6,
-  question: "6. ",
-  answers: [
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""}
-  ]
-},
-{
-  questionNumber: 7,
-  question: "7. ",
-  answers: [
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""}
-  ]
-},
-{
-  questionNumber: 8,
-  question: "8. ",
-  answers: [
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""}
-  ]
-},
-{
-  questionNumber: 9,
-  question: "9. ",
-  answers: [
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""},
-    { label: "", id: "", value: ""}
-  ]
-},
-{
-  questionNumber: 10,
-  question: "10. ",
+  question: "5. what is the right colour?",
   answers: [
     { label: "", id: "", value: ""},
     { label: "", id: "", value: ""},
