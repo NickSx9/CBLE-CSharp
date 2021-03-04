@@ -42,7 +42,7 @@ export class ProgressBar extends React.Component {
            <div>
              <h2 className="Progress-title">Progress</h2>
                 <Progress percentage={this.state.percentage} />
-                  <button class="progressButton" onClick={this.updateProgress}>Completed Lesson</button>
+                  <button className="progressButton" onClick={this.updateProgress}>Completed Lesson</button>
            </div>
     );
   }

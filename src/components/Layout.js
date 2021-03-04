@@ -10,10 +10,10 @@ export class Layout extends Component {
 
   render () {
     return (
-      <div class="mainWeb-body">
+      <div className="mainWeb-body">
         <Container className="block">
            <Header />
-           <div class="row">
+           <div className="row">
               <div className="col-lg-9 col-md-9 col-sm-12 main-body">
                 {this.props.children}
                 <ProgressBar/>

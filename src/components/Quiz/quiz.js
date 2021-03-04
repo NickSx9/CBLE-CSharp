@@ -6,7 +6,6 @@ import './quiz.css';
 export class Quiz extends React.Component {
   constructor (props) {
     super(props);
-
     this.state = {
       QuizData: global.quizDetails
     }
@@ -25,10 +24,13 @@ export class Quiz extends React.Component {
       });
     }
   }
+  handelSubmit(){
+   console.log("Button Clicked")
+  }
   render () {  
       return (
         <div>
-            <form>
+            <form onSubmit={this.handelSubmit}>
                 <div class="formTile">
                     <h1>Recap Quiz</h1>
                     <ul>
@@ -41,13 +43,12 @@ export class Quiz extends React.Component {
                             )}
                         </tbody>
                     </ul>
-                    <button class="submitbutton">Submit</button>
                 </div>
             </form>
+            <button type="submit" class="submitbutton">Submit</button>
         </div>
       );
-    }
-   
+    } 
 }
 
 

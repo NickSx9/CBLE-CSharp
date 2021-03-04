@@ -26,17 +26,15 @@ class SideBar extends Component {
                     <div className="sideBar-body">
                         <h3>Lessons</h3>
                             <ul>
-                                <tbody>
                                     {Object.keys(this.props.cliplist).map((i) =>
                                         <li onClick={() => this.props.userSelectPage(this.props.cliplist[i])}>
-                                            <div key={'tile_'+i} class="tile">
+                                            <div key={'tile_'+i} className="tile">
                                                 <img src={require('../images/' + this.props.cliplist[i].BothThumbImage + '.PNG')} width="90%" />
                                                     <a href="#" ><h5>{this.props.cliplist[i].SideBarTitle}</h5></a>
                                                     <p>{this.props.cliplist[i].SideBarDescription}</p>
                                             </div>
                                         </li>
                                     )}
-                                </tbody>
                             </ul>
                      </div>
                 </div>

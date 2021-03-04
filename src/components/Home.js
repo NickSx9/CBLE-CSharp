@@ -21,12 +21,11 @@ class Home extends Component {
         if(this.props.page.download)
         {
          return (
-                <tbody>
                      <div>
                         <div>
                             <div>
                                 <a href={require('./video/' + this.props.page.PageVideo + '.mkv')}>
-                                    <video controls class="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
+                                    <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
                                      <source src={require('./video/' + this.props.page.PageVideo + '.mkv')} type="video/mp4"></source>
                                     </video>
                                  </a>
@@ -40,16 +39,14 @@ class Home extends Component {
                      </div>
                      <a href="https://visualstudio.microsoft.com/downloads/">Download Visual Studio</a>
                 </div>
-            </tbody>
           );
         }
          return (
-            <tbody>
                  <div>
                     <div>
                         <div>
                             <a href={require('./video/' + this.props.page.PageVideo + '.mkv')}>
-                                <video controls class="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
+                                <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
                                  <source src={require('./video/' + this.props.page.PageVideo + '.mkv')} type="video/mp4"></source>
                                 </video>
                              </a>
@@ -61,8 +58,7 @@ class Home extends Component {
                 <div>
                     <p>{this.props.page.PageText}</p>
                  </div>
-            </div>
-        </tbody>
+            </div>   
     );
   }
   async populatePageData() {

@@ -12,7 +12,7 @@ const RadioButton = ({options, ...props}) => {
     //Iterate through options array and create an input + label for each
     var items = options.map((item, i) =>
         <div key={i} className="radio-group">
-            <input type="radio" id={item.id} data-testid={item.id} value={item.value} onChange={handleChange}/>
+            <input name={item.name} class="option-input radio" type="radio" id={item.id} data-testid={item.id} value={item.value} onChange={handleChange}/>
             <label htmlFor={item.id}>{item.label}</label>
         </div>
     );

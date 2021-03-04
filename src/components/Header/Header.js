@@ -22,7 +22,7 @@ export class Header extends Component {
   render () {
     return (
       <header>
-            <div class="title-header">
+            <div className="title-header">
               <h1>Basic C# Tutorial</h1>
             </div>
       </header>
