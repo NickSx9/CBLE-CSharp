@@ -64,25 +64,6 @@
   .option-input:checked {
     background: black;
   }
-  .option-input:checked::before {
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    display: inline-block;
-    font-size: 26.66667px;
-    text-align: center;
-    line-height: 35px;
-  }
-  .option-input:checked::after {
-    -webkit-animation: click-wave 0.65s;
-    -moz-animation: click-wave 0.65s;
-    animation: click-wave 0.65s;
-    background: #40e0d0;
-    content: '';
-    display: block;
-    position: relative;
-    z-index: 100;
-  }
   .option-input.radio {
     border-radius: 50%;
   }
@@ -92,12 +73,11 @@
 
   .isCorrect {
     background: green !important;
-    content: '✔';
+    content: '✔' i !important;
   }
 
   .isIncorrect {
     background: red !important;
-    content: 'X';
   }
  
 
