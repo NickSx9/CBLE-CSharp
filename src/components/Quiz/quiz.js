@@ -89,7 +89,7 @@ export class Quiz extends React.Component {
     document.getElementById("questionFive_2").className += " isIncorrect"
     document.getElementById("questionFive_4").className += " isIncorrect"
    }
-   alert('You managed to get '+correctCount+' out of 5 correct.')
+   alert('You managed to get '+correctCount+' out of 5 correct. \n\nPlease Return to Canvas')
   }
   render () {  
       return (
@@ -114,5 +114,3 @@ export class Quiz extends React.Component {
       );
     } 
 }
-
-

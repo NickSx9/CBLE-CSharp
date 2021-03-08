@@ -18,7 +18,7 @@ export default function() {
              BothThumbImage: "hello",
              PageVideo: "vid2",
              PageTitle: "Hello World Application",
-             PageText: "By the end of this lesson, you will be able to setup and run a basic Hello-World application and know how to place break points to help debugging"
+             PageText: "By the end of this lesson, you will be able to setup and run a basic Hello-World application, have an understanding of writing content to the screen and how to record and use, user inputted data."
         },
         {
              LinkNumber: 3,

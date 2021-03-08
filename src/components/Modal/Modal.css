@@ -1,0 +1,40 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.main-modal {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    color: black;
+    position: fixed;
+    z-index: 500;
+    background-color: #B2DDDF;
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.close {
+    cursor: pointer;
+    float:right;
+}
+
+.modal-overlay {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 450;
+    background-color: #000000cc;
+}

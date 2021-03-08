@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 import { Header } from '../components/Header/Header.js';
 import SideBar  from '../components/SideBar/SideBar.js';
 import { ProgressBar } from '../components/ProgressBar/ProgressBar.js';
-import '../'
+
 
 export class Layout extends Component {
   static displayName = Layout.name;

@@ -13,22 +13,22 @@ function globalUpdateState(text){
 
 global.quizDetails = [{
   questionNumber: 1,
-  question: "1. What is the maximum value an int variable can support?",
+  question: "1. Which command is used to display text to the screen, while leaving the cursor on the same line?",
   answers: [
-    { label: "yes", id: "questionOne_1", value: "yes", name:"questionOne"},
-    { label: "no", id: "questionOne_2", value: "no", name:"questionOne"},
-    { label: "maybe", id: "questionOne_3", value: "maybe", name:"questionOne"},
-    { label: "sometimes", id: "questionOne_4", value: "sometimes", name:"questionOne"}
+    { label: "Console.Write()", id: "questionOne_1", value: "yes", name:"questionOne"},
+    { label: "Console.WriteLine()", id: "questionOne_2", value: "no", name:"questionOne"},
+    { label: "console.write()", id: "questionOne_3", value: "maybe", name:"questionOne"},
+    { label: "Console.ReadLine()", id: "questionOne_4", value: "sometimes", name:"questionOne"}
   ]
 },
 {
   questionNumber: 2,
-  question: "2. how long is too long?",
+  question: "2. Which variable type should be used to contain words?",
   answers: [
-    { label: "", id: "questionTwo_1", value: "", name:"questionTwo"},
-    { label: "", id: "questionTwo_2", value: "", name:"questionTwo"},
-    { label: "", id: "questionTwo_3", value: "", name:"questionTwo"},
-    { label: "", id: "questionTwo_4", value: "", name:"questionTwo"}
+    { label: "char", id: "questionTwo_1", value: "", name:"questionTwo"},
+    { label: "int", id: "questionTwo_2", value: "", name:"questionTwo"},
+    { label: "string", id: "questionTwo_3", value: "", name:"questionTwo"},
+    { label: "double", id: "questionTwo_4", value: "", name:"questionTwo"}
   ]
 },
 {
@@ -36,7 +36,7 @@ global.quizDetails = [{
   question: "3. when you eat beans, does it make you fart",
   answers: [
     { label: "", id: "questionThree_1", value: "", name:"questionThree"},
-    { label: "", id: "questionThree_2", value: "", name:"questionThree"},
+    { label: "correct", id: "questionThree_2", value: "", name:"questionThree"},
     { label: "", id: "questionThree_3", value: "", name:"questionThree"},
     { label: "", id: "questionThree_4", value: "", name:"questionThree"}
   ]
@@ -48,7 +48,7 @@ global.quizDetails = [{
     { label: "", id: "questionFour_1", value: "", name:"questionFour"},
     { label: "", id: "questionFour_2", value: "", name:"questionFour"},
     { label: "", id: "questionFour_3", value: "", name:"questionFour"},
-    { label: "", id: "questionFour_4", value: "", name:"questionFour"}
+    { label: "correct", id: "questionFour_4", value: "", name:"questionFour"}
   ]
 },
 {
@@ -57,7 +57,7 @@ global.quizDetails = [{
   answers: [
     { label: "", id: "questionFive_1", value: "", name:"questionFive"},
     { label: "", id: "questionFive_2", value: "", name:"questionFive"},
-    { label: "", id: "questionFive_3", value: "", name:"questionFive"},
+    { label: "correct", id: "questionFive_3", value: "", name:"questionFive"},
     { label: "", id: "questionFive_4", value: "", name:"questionFive"}
   ]
 }]
