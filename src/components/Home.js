@@ -40,7 +40,6 @@ class Home extends Component {
                         <p>{this.props.page.PageText}</p>
                      </div>
                      <a href="https://visualstudio.microsoft.com/downloads/">Download Visual Studio</a>
-                     <div className="pleaseClick"><p>Please click "Complete Lesson" after completing each section</p></div>
                 </div>
           );
         }
@@ -61,7 +60,6 @@ class Home extends Component {
                 <div>
                     <p>{this.props.page.PageText}</p>
                  </div>
-                 <div className="pleaseClick"><p>Please click "Complete Lesson" after completing each section</p></div>
             </div>   
     );
   }
