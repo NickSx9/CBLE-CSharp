@@ -63,8 +63,6 @@ export class Quiz extends React.Component {
    }
    else{
     document.getElementById("questionThree_2").className += " isCorrect"
-    document.getElementById("questionThree_3").className += " isIncorrect"
-    document.getElementById("questionThree_4").className += " isIncorrect"
     document.getElementById("questionThree_1").className += " isIncorrect"
    }
    if(answerQuestionFour)
@@ -109,7 +107,7 @@ export class Quiz extends React.Component {
                     </ul>
                 </div>
             </form>
-            <button type="submit" class="submitbutton" onClick={this.handelSubmit}>Submit</button>
+            <button type="submit" class="submitButton" onClick={this.handelSubmit}>Submit</button>
         </div>
       );
     } 

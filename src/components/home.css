@@ -2,3 +2,6 @@
     text-align: right;
     color: #dfffe6;
 }
+.mainParagraph p {
+    padding: 15px;
+}

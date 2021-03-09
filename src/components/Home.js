@@ -26,9 +26,9 @@ class Home extends Component {
                      <div>
                         <div>
                             <div>
-                                <a href={require('./video/' + this.props.page.PageVideo + '.mkv')}>
+                                <a href={require('./video/' + this.props.page.PageVideo + '.mp4')}>
                                     <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
-                                     <source src={require('./video/' + this.props.page.PageVideo + '.mkv')} type="video/mp4"></source>
+                                     <source src={require('./video/' + this.props.page.PageVideo + '.mp4')} type="video/mp4"></source>
                                     </video>
                                  </a>
                             </div>
@@ -36,7 +36,7 @@ class Home extends Component {
                     <div className="title">
                         <h1>{this.props.page.PageTitle}</h1>
                     </div>
-                    <div>
+                    <div className="mainParagraph">
                         <p>{this.props.page.PageText}</p>
                      </div>
                      <a href="https://visualstudio.microsoft.com/downloads/">Download Visual Studio</a>
@@ -47,9 +47,9 @@ class Home extends Component {
                  <div>
                     <div>
                         <div>
-                            <a href={require('./video/' + this.props.page.PageVideo + '.mkv')}>
+                            <a href={require('./video/' + this.props.page.PageVideo + '.mp4')}>
                                 <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
-                                 <source src={require('./video/' + this.props.page.PageVideo + '.mkv')} type="video/mp4"></source>
+                                 <source src={require('./video/' + this.props.page.PageVideo + '.mp4')} type="video/mp4"></source>
                                 </video>
                              </a>
                         </div>
@@ -57,7 +57,7 @@ class Home extends Component {
                 <div className="title">
                     <h1>{this.props.page.PageTitle}</h1>
                 </div>
-                <div>
+                <div className="mainParagraph">
                     <p>{this.props.page.PageText}</p>
                  </div>
             </div>   

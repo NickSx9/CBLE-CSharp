@@ -4,7 +4,7 @@ export default function() {
         {
             LinkNumber: 1,
             SideBarTitle: "Installation",
-            SideBarDescription: "This Tutorial will show the user how to install Microsoft Visual Studio On their Computer",
+            SideBarDescription: "This tutorial will show the user how to install Microsoft Visual Studio On their computer.",
             BothThumbImage: "intro",
             PageVideo: "intro",
             PageTitle: "Introduction and installation",
@@ -14,7 +14,7 @@ export default function() {
         {
              LinkNumber: 2,
              SideBarTitle: "Hello World",
-             SideBarDescription: "An introduction to the Visual Studio Software and how to run a C# Hello-world application.",
+             SideBarDescription: "An introduction to the Visual Studio Software and how to run a C# Hello-World application.",
              BothThumbImage: "hello",
              PageVideo: "vid2",
              PageTitle: "Hello World Application",
@@ -23,21 +23,20 @@ export default function() {
         {
              LinkNumber: 3,
              SideBarTitle: "Variables",
-             SideBarDescription: "This Tutorial will show the user how to install Microsoft Visual Studio On their Computer",
+             SideBarDescription: "In this tutorial we, will be working with different variable types.",
              BothThumbImage: "vari",
              PageVideo: "vid3",
-             PageTitle: "Variables - Picking the right one!",
-             PageText: "By the end of this lesson, you will be able to setup and run a basic Hello-World application and know how to place break points to help debugging"
+             PageTitle: "Variables - Picking the Right One!",
+             PageText: "This lesson, we will be looking at the different variable types, what data they can hold and how methods can be used to return those different types, and we will look at using break points to help with debugging code errors."
         },
         {
              LinkNumber: 4,
              SideBarTitle: "Classes",
-             SideBarDescription: "This Tutorial will show the user how to install Microsoft Visual Studio On their Computer",
+             SideBarDescription: "A quick introduction into objects and how to call different classes.",
              BothThumbImage: "classes",
              PageVideo: "vid4",
-             PageTitle: "C# Classes and how to call them!",
-             PageText: "long and boring bit of info about class's"
-
+             PageTitle: "C# Classes and How to Call Them!",
+             PageText: "When the object is created, enough memory is allocated on the managed heap for that specific object, and the variable holds only a reference to the location of said object. Types on the managed heap require overhead both when they are allocated and when they are reclaimed by the automatic memory management functionality of the CLR, which is known as garbage collection. However, garbage collection is also highly optimized and in most scenarios, it does not create a performance issue. For more information about garbage collection, see Automatic memory management and garbage collection."
         },
         {
             LinkNumber: 5,

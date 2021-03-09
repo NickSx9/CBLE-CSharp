@@ -33,12 +33,10 @@ global.quizDetails = [{
 },
 {
   questionNumber: 3,
-  question: "3. when you eat beans, does it make you fart",
+  question: "3. A void method can return a value",
   answers: [
-    { label: "", id: "questionThree_1", value: "", name:"questionThree"},
-    { label: "correct", id: "questionThree_2", value: "", name:"questionThree"},
-    { label: "", id: "questionThree_3", value: "", name:"questionThree"},
-    { label: "", id: "questionThree_4", value: "", name:"questionThree"}
+    { label: "false", id: "questionThree_1", value: "", name:"questionThree"},
+    { label: "true", id: "questionThree_2", value: "", name:"questionThree"}
   ]
 },
 {
