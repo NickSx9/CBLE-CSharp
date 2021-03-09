@@ -35,27 +35,27 @@ global.quizDetails = [{
   questionNumber: 3,
   question: "3. A void method can return a value",
   answers: [
-    { label: "false", id: "questionThree_1", value: "", name:"questionThree"},
-    { label: "true", id: "questionThree_2", value: "", name:"questionThree"}
+    { label: "true", id: "questionThree_1", value: "", name:"questionThree"},
+    { label: "false", id: "questionThree_2", value: "", name:"questionThree"}
   ]
 },
 {
   questionNumber: 4,
-  question: "4. what time is it?",
+  question: "4. How should a public class, called Player be called?",
   answers: [
-    { label: "", id: "questionFour_1", value: "", name:"questionFour"},
-    { label: "", id: "questionFour_2", value: "", name:"questionFour"},
-    { label: "", id: "questionFour_3", value: "", name:"questionFour"},
-    { label: "correct", id: "questionFour_4", value: "", name:"questionFour"}
+    { label: "player = new Player();", id: "questionFour_1", value: "", name:"questionFour"},
+    { label: "Player player = New Player()", id: "questionFour_2", value: "", name:"questionFour"},
+    { label: "String player = new Player();", id: "questionFour_3", value: "", name:"questionFour"},
+    { label: "Player player = new Player();", id: "questionFour_4", value: "", name:"questionFour"}
   ]
 },
 {
   questionNumber: 5,
-  question: "5. what is the right colour?",
+  question: "5. What line of code would NOT cause an error",
   answers: [
-    { label: "", id: "questionFive_1", value: "", name:"questionFive"},
-    { label: "", id: "questionFive_2", value: "", name:"questionFive"},
-    { label: "correct", id: "questionFive_3", value: "", name:"questionFive"},
-    { label: "", id: "questionFive_4", value: "", name:"questionFive"}
+    { label: "string name = Console.ReadKey();", id: "questionFive_1", value: "", name:"questionFive"},
+    { label: "string name = Convert.ToInt32(Console.ReadKey()); ", id: "questionFive_2", value: "", name:"questionFive"},
+    { label: "string name = Console.ReadLine();", id: "questionFive_3", value: "", name:"questionFive"},
+    { label: "string name = Console.readLine();", id: "questionFive_4", value: "", name:"questionFive"}
   ]
 }]
