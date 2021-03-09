@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
+import {Player} from 'video-react';
 import { connect } from 'react-redux';
-import './home.css'
+import './home.css';
 
 
 class Home extends Component {
@@ -26,11 +26,7 @@ class Home extends Component {
                      <div>
                         <div>
                             <div>
-                                <a href={require('./video/' + this.props.page.PageVideo + '.mp4')}>
-                                    <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
-                                     <source src={require('./video/' + this.props.page.PageVideo + '.mp4')} type="video/mp4"></source>
-                                    </video>
-                                 </a>
+                                <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
                             </div>
                         </div>
                     <div className="title">
@@ -47,11 +43,7 @@ class Home extends Component {
                  <div>
                     <div>
                         <div>
-                            <a href={require('./video/' + this.props.page.PageVideo + '.mp4')}>
-                                <video controls className="img-fluid" poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')}>
-                                 <source src={require('./video/' + this.props.page.PageVideo + '.mp4')} type="video/mp4"></source>
-                                </video>
-                             </a>
+                        <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
                         </div>
                     </div>
                 <div className="title">
