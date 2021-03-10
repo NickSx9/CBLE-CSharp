@@ -6,13 +6,12 @@ import '../Quiz/quiz.css'
 const RadioButton = ({options, ...props}) => {
     const [input, setInput] = useState('');
     const handleChange = event => {
-      console.log(event.target.value);
       setInput(event.target.value);
     }
     //Iterate through options array and create an input + label for each
     var items = options.map((item, i) =>
         <div key={i} className="radio-group">
-            <input name={item.name} class="option-input radio" type="radio" id={item.id} data-testid={item.id} value={item.value} onChange={handleChange}/>
+            <input name={item.name} className="option-input radio" type="radio" id={item.id} data-testid={item.id} value={item.value} onChange={handleChange}/>
             <label htmlFor={item.id}>{item.label}</label>
         </div>
     );
@@ -27,7 +26,7 @@ const RadioButton = ({options, ...props}) => {
 }
 
 RadioButton.propTypes = {
-    name: PropTypes.string.isRequired,
+    name: PropTypes.string,
     options: PropTypes.array.isRequired,
     heading: PropTypes.string,
     subtitle: PropTypes.string,

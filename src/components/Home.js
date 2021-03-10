@@ -16,7 +16,6 @@ class Home extends Component {
 
     componentDidMount() {
         this.populatePageData();
-        console.log(this.state.pageNumber);
     }
 
     render() {
@@ -56,7 +55,6 @@ class Home extends Component {
     );
   }
   async populatePageData() {
-      console.log(this.props.page);
       this.setState({ page: this.props.page });
   }
 }

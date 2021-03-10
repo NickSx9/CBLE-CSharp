@@ -18,7 +18,6 @@ class SideBar extends Component {
     }
 
     render() {
-        console.log(this.props.cliplist +" 1 here")
         if(this.props.cliplist)
         {
             return (
@@ -27,8 +26,8 @@ class SideBar extends Component {
                         <h3>Lessons</h3>
                             <ul>
                                     {Object.keys(this.props.cliplist).map((i) =>
-                                        <li onClick={() => this.props.userSelectPage(this.props.cliplist[i])}>
-                                            <div key={'tile_'+i} className="tile">
+                                        <li key={'tile_'+i} onClick={() => this.props.userSelectPage(this.props.cliplist[i])}>
+                                            <div className="tile">
                                                 <img src={require('../images/' + this.props.cliplist[i].BothThumbImage + '.PNG')} width="90%" />
                                                     <a href="#" ><h5>{this.props.cliplist[i].SideBarTitle}</h5></a>
                                                     <p>{this.props.cliplist[i].SideBarDescription}</p>

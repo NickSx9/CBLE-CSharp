@@ -8,7 +8,7 @@ export default function() {
             BothThumbImage: "intro",
             PageVideo: "intro",
             PageTitle: "Introduction and installation",
-            PageText: "Welcome to an introduction into C-Sharp Basic Programming. Once you have completed this tutorial, you will have a basic knowledge of how this programming language works and have an understanding of the variables, classes and how to debug errors.  We will start this tutorial by showing you what programs you will need, and how to install them. Please click the 'Completed Lesson' button after  completing each section to keep track of your progress.",
+            PageText: "Welcome to an introduction into C-Sharp Basic Programming. Once you have completed these tutorials, you will have a basic knowledge of how this programming language works. Variables, classes, and methods will all be covered in these tutorials. This first lesson will show you what you need to get started. Please click the 'Completed Lesson' button after completing this lesson.",
             download: "https://visualstudio.microsoft.com/downloads/"
         },
         {
@@ -18,16 +18,16 @@ export default function() {
              BothThumbImage: "hello",
              PageVideo: "vid2",
              PageTitle: "Hello World Application",
-             PageText: "By the end of this lesson, you will be able to setup and run a basic Hello-World application, have an understanding of writing content to the screen and how to record and use, user inputted data."
+             PageText: "In this lesson we will create a basic Hello World programme, we will cover how to display content to the console and demonstrate how to take and use input data from the users. Please click the 'Completed Lesson' button after completing this lesson."
         },
         {
              LinkNumber: 3,
              SideBarTitle: "Variables",
-             SideBarDescription: "In this tutorial we, will be working with different variable types.",
+             SideBarDescription: "In this tutorial, we will be working with different variable types.",
              BothThumbImage: "vari",
              PageVideo: "vid3",
              PageTitle: "Variables - Picking the Right One!",
-             PageText: "This lesson, we will be looking at the different variable types, what data they can hold and how methods can be used to return those different types, and we will look at using break points to help with debugging code errors."
+             PageText: "This lesson, we will be looking at the different variable types, what data they can hold, and how input data should be converted to match their data type. Please click the 'Completed Lesson' button after completing this lesson."
         },
         {
              LinkNumber: 4,
@@ -36,16 +36,16 @@ export default function() {
              BothThumbImage: "classes",
              PageVideo: "vid4",
              PageTitle: "C# Classes and How to Call Them!",
-             PageText: "When the object is created, enough memory is allocated on the managed heap for that specific object, and the variable holds only a reference to the location of said object. Types on the managed heap require overhead both when they are allocated and when they are reclaimed by the automatic memory management functionality of the CLR, which is known as garbage collection. However, garbage collection is also highly optimized and in most scenarios, it does not create a performance issue. For more information about garbage collection, see Automatic memory management and garbage collection."
+             PageText: "During this lesson, we will be creating a new class. We will be going over how to call that class, why it is important to make the class public and how to call the same class multiple times. Please click the 'Completed Lesson' button after completing this lesson."
         },
         {
             LinkNumber: 5,
             SideBarTitle: "My First Application",
-            SideBarDescription: "This lesson will use what you have learnt to build your first application",
+            SideBarDescription: "This lesson will use what you have learnt, to build your first application.",
             BothThumbImage: "first",
             PageVideo: "vid5",
             PageTitle: "Creation of a C# Console Application",
-            PageText: "long winded bit about the project we are creating"
+            PageText: "In this lesson, we will be putting everything we have learned into a single application to make a basic adventure game. We will also take a like at while loops, If statements and switch cases. Please click the 'Completed Lesson' button after completing this lesson."
 
         }
     ]

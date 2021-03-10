@@ -93,21 +93,19 @@ export class Quiz extends React.Component {
       return (
         <div>
             <form onSubmit={this.handelSubmit}>
-                <div class="formTile">
+                <div className="formTile">
                     <h1>Recap Quiz</h1>
                     <ul>
-                        <tbody>
                             {Object.keys(this.state.QuizData).map((i) =>
-                                <li>
+                                <li key={'question_'+i}>
                                     <p>{this.state.QuizData[i].question}</p>
                                     <RadioButton options={this.state.QuizData[i].answers}/>
                                 </li>                            
                             )}
-                        </tbody>
                     </ul>
                 </div>
             </form>
-            <button type="submit" class="submitButton" onClick={this.handelSubmit}>Submit</button>
+            <button type="submit" className="submitButton" onClick={this.handelSubmit}>Submit</button>
         </div>
       );
     } 
