@@ -1,4 +1,3 @@
-import { Alert } from 'bootstrap';
 import React from 'react';
 import RadioButton from '../RadioButtons/radiobutton'
 import './quiz.css';

@@ -28,7 +28,7 @@ class SideBar extends Component {
                                     {Object.keys(this.props.cliplist).map((i) =>
                                         <li key={'tile_'+i} onClick={() => this.props.userSelectPage(this.props.cliplist[i])}>
                                             <div className="tile">
-                                                <img src={require('../images/' + this.props.cliplist[i].BothThumbImage + '.PNG')} width="90%" />
+                                                <img alt={this.props.cliplist[i].SideBarTitle +' Image'} src={require('../images/' + this.props.cliplist[i].BothThumbImage + '.JPG')} width="90%" />
                                                     <a href="#" ><h5>{this.props.cliplist[i].SideBarTitle}</h5></a>
                                                     <p>{this.props.cliplist[i].SideBarDescription}</p>
                                             </div>

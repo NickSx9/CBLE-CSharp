@@ -25,7 +25,7 @@ class Home extends Component {
                      <div>
                         <div>
                             <div>
-                                <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
+                                <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.JPG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
                             </div>
                         </div>
                     <div className="title">
@@ -42,7 +42,7 @@ class Home extends Component {
                  <div>
                     <div>
                         <div>
-                        <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.PNG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
+                        <Player className="img-fluid" playsInline poster={require('./images/' + this.props.page.BothThumbImage + '.JPG')} src={require('./video/' + this.props.page.PageVideo + '.mp4')}/>
                         </div>
                     </div>
                 <div className="title">

@@ -4,6 +4,8 @@ export default function (state={}, action) {
             return action.payload
         case "START_QUIZ":
             return action.payload
+            default:
+                break
     }
         state.LinkNumber = 1;
         state.PageVideo = "intro";
