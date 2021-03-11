@@ -7,7 +7,6 @@
   border-width: medium;
   border-color: black;
 }
-
 ul {
   list-style: none;
   margin: 0 0 !important;
@@ -16,4 +15,7 @@ ul {
 .tile a {
   color: white;
   font-style: italic;
+}
+.tile p {
+  padding: 0px 10px 0px 10px;
 }

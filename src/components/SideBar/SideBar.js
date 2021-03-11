@@ -12,11 +12,9 @@ class SideBar extends Component {
             tiles: {}
         };    
     }
-
     componentDidMount() {
         this.populateTileData();
     }
-
     render() {
         if(this.props.cliplist)
         {
@@ -53,18 +51,15 @@ class SideBar extends Component {
         );
         }
     }
-
     async populateTileData() {
         this.setState({ tiles: this.props.cliplist, loading: false, userSelectPage: this.props.userSelectPage });
     }
 }
-
 function mapStateToProps(state) {
     return {
         cliplist: state.cliplist
     };
 }
-
 function matchDispatchToProps(dispatch){
     return bindActionCreators({
           userSelectPage: selectPage}, dispatch
