@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a7819d667f8fb5cdd5b39e53b3a688f",
+    "revision": "52cbff564b5844239a457f3b897c4e7d",
     "url": "/CBLE-CSharp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CBLE-CSharp/static/css/2.87a9c7a2.chunk.css"
   },
   {
-    "revision": "a5cc628639dfba80ccb9",
+    "revision": "03d853f91924adce9521",
     "url": "/CBLE-CSharp/static/css/main.deca950a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CBLE-CSharp/static/js/2.ae8c62f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5cc628639dfba80ccb9",
-    "url": "/CBLE-CSharp/static/js/main.b5be01f2.chunk.js"
+    "revision": "03d853f91924adce9521",
+    "url": "/CBLE-CSharp/static/js/main.b9de8f45.chunk.js"
   },
   {
     "revision": "fc4e8189eb83aacbce14",
