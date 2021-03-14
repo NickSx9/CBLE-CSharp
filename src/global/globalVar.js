@@ -45,7 +45,7 @@ global.quizDetails = [{
   question: "5. What line of code would NOT cause an error",
   answers: [
     { label: "string name = Console.ReadKey();", id: "questionFive_1", value: "", name:"questionFive"},
-    { label: "string name = Convert.ToInt32(Console.ReadKey()); ", id: "questionFive_2", value: "", name:"questionFive"},
+    { label: "string name = Console.ReadKey(); ", id: "questionFive_2", value: "", name:"questionFive"},
     { label: "string name = Console.ReadLine();", id: "questionFive_3", value: "", name:"questionFive"},
     { label: "string name = Console.readLine();", id: "questionFive_4", value: "", name:"questionFive"}
   ]
