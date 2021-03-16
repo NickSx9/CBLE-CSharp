@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CBLE-CSharp/precache-manifest.81dbc3c12e2cde09581b033ab35f8add.js"
+  "/CBLE-CSharp/precache-manifest.afd51d6d7e70c28399f329bf4c78d944.js"
 );
 
 self.addEventListener('message', (event) => {

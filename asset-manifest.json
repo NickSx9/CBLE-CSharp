@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CBLE-CSharp/static/css/main.deca950a.chunk.css",
-    "main.js": "/CBLE-CSharp/static/js/main.c9e5380b.chunk.js",
-    "main.js.map": "/CBLE-CSharp/static/js/main.c9e5380b.chunk.js.map",
+    "main.js": "/CBLE-CSharp/static/js/main.fc41f471.chunk.js",
+    "main.js.map": "/CBLE-CSharp/static/js/main.fc41f471.chunk.js.map",
     "runtime-main.js": "/CBLE-CSharp/static/js/runtime-main.8b9a56b8.js",
     "runtime-main.js.map": "/CBLE-CSharp/static/js/runtime-main.8b9a56b8.js.map",
     "static/css/2.87a9c7a2.chunk.css": "/CBLE-CSharp/static/css/2.87a9c7a2.chunk.css",
     "static/js/2.ae8c62f0.chunk.js": "/CBLE-CSharp/static/js/2.ae8c62f0.chunk.js",
     "static/js/2.ae8c62f0.chunk.js.map": "/CBLE-CSharp/static/js/2.ae8c62f0.chunk.js.map",
     "index.html": "/CBLE-CSharp/index.html",
-    "precache-manifest.81dbc3c12e2cde09581b033ab35f8add.js": "/CBLE-CSharp/precache-manifest.81dbc3c12e2cde09581b033ab35f8add.js",
+    "precache-manifest.afd51d6d7e70c28399f329bf4c78d944.js": "/CBLE-CSharp/precache-manifest.afd51d6d7e70c28399f329bf4c78d944.js",
     "service-worker.js": "/CBLE-CSharp/service-worker.js",
     "static/css/2.87a9c7a2.chunk.css.map": "/CBLE-CSharp/static/css/2.87a9c7a2.chunk.css.map",
     "static/css/main.deca950a.chunk.css.map": "/CBLE-CSharp/static/css/main.deca950a.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.87a9c7a2.chunk.css",
     "static/js/2.ae8c62f0.chunk.js",
     "static/css/main.deca950a.chunk.css",
-    "static/js/main.c9e5380b.chunk.js"
+    "static/js/main.fc41f471.chunk.js"
   ]
 }
