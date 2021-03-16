@@ -3,8 +3,8 @@ export default function() {
     return [
         {
             LinkNumber: 1,
-            SideBarTitle: "Installation",
-            SideBarDescription: "This tutorial will show the user how to install Microsoft Visual Studio On their computer.",
+            SideBarTitle: "Lesson 1: Installation",
+            SideBarDescription: "This tutorial will show you how to install Microsoft Visual Studio On your computer.",
             BothThumbImage: "intro",
             PageVideo: "intro",
             PageTitle: "Introduction and installation",
@@ -13,7 +13,7 @@ export default function() {
         },
         {
              LinkNumber: 2,
-             SideBarTitle: "Hello World",
+             SideBarTitle: "Lesson 2: Hello World",
              SideBarDescription: "An introduction to the Visual Studio Software and how to run a C# Hello-World application.",
              BothThumbImage: "hello",
              PageVideo: "vid2",
@@ -22,8 +22,8 @@ export default function() {
         },
         {
              LinkNumber: 3,
-             SideBarTitle: "Variables",
-             SideBarDescription: "In this tutorial, we will be working with different variable types.",
+             SideBarTitle: "Lesson 3: Variables",
+             SideBarDescription: "In this tutorial, you will be working with different variable types.",
              BothThumbImage: "vari",
              PageVideo: "vid3",
              PageTitle: "Variables - Picking the Right One!",
@@ -31,7 +31,7 @@ export default function() {
         },
         {
              LinkNumber: 4,
-             SideBarTitle: "Classes",
+             SideBarTitle: "Lesson 4: Classes",
              SideBarDescription: "A quick introduction into objects and how to call different classes.",
              BothThumbImage: "classes",
              PageVideo: "vid4",
@@ -40,7 +40,7 @@ export default function() {
         },
         {
             LinkNumber: 5,
-            SideBarTitle: "My First Application",
+            SideBarTitle: "Lesson 5: My First Application",
             SideBarDescription: "This lesson will use what you have learnt, to build your first application.",
             BothThumbImage: "first",
             PageVideo: "vid5",

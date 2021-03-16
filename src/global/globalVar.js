@@ -6,10 +6,10 @@ global.quizDetails = [{
   questionNumber: 1,
   question: "1. Which command is used to display text to the screen, while leaving the cursor on the same line?",
   answers: [
-    { label: "Console.Write()", id: "questionOne_1", value: "yes", name:"questionOne"},
-    { label: "Console.WriteLine()", id: "questionOne_2", value: "no", name:"questionOne"},
-    { label: "console.write()", id: "questionOne_3", value: "maybe", name:"questionOne"},
-    { label: "Console.ReadLine()", id: "questionOne_4", value: "sometimes", name:"questionOne"}
+    { label: "Console.Write()", id: "questionOne_1", value: "", name:"questionOne"},
+    { label: "Console.WriteLine()", id: "questionOne_2", value: "", name:"questionOne"},
+    { label: "console.write()", id: "questionOne_3", value: "", name:"questionOne"},
+    { label: "Console.ReadLine()", id: "questionOne_4", value: "", name:"questionOne"}
   ]
 },
 {
@@ -44,7 +44,7 @@ global.quizDetails = [{
   questionNumber: 5,
   question: "5. What line of code would NOT cause an error",
   answers: [
-    { label: "string name = Console.ReadKey();", id: "questionFive_1", value: "", name:"questionFive"},
+    { label: "string name = ReadLine();", id: "questionFive_1", value: "", name:"questionFive"},
     { label: "string name = Console.ReadKey(); ", id: "questionFive_2", value: "", name:"questionFive"},
     { label: "string name = Console.ReadLine();", id: "questionFive_3", value: "", name:"questionFive"},
     { label: "string name = Console.readLine();", id: "questionFive_4", value: "", name:"questionFive"}
