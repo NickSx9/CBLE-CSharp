@@ -19,7 +19,8 @@ margin-left: 5%;
   color: white;
 }
 .progressButton {
-  background-color: rgb(179, 153, 153);
+  background-color: #46658C;
+  color: white;
   border-radius: 7px;
   margin-top: 10px;
   margin-right: 5%;

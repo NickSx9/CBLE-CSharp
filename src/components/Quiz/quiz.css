@@ -28,7 +28,8 @@
     color: white;
 }
 .submitButton {
-    background-color: rgb(179, 153, 153);
+    background-color: #46658C;
+    color: white;
     border-radius: 7px;
     margin-top: 20px;
     margin-right: 5%;
